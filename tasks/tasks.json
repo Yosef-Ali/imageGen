@@ -1,0 +1,200 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Project Setup",
+      "description": "Set up the Next.js project with TypeScript, TailwindCSS, and other dependencies",
+      "status": "completed",
+      "priority": "high",
+      "complexity": 3,
+      "subtasks": [
+        {
+          "id": "1.1",
+          "title": "Initialize Next.js project",
+          "description": "Create a new Next.js project with TypeScript and TailwindCSS",
+          "status": "completed"
+        },
+        {
+          "id": "1.2",
+          "title": "Install dependencies",
+          "description": "Install required dependencies including UI components, state management, and OpenAI SDK",
+          "status": "completed"
+        },
+        {
+          "id": "1.3",
+          "title": "Configure project structure",
+          "description": "Set up the project directory structure and configuration files",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "UI Components",
+      "description": "Create reusable UI components using Shadcn UI",
+      "status": "completed",
+      "priority": "high",
+      "complexity": 4,
+      "subtasks": [
+        {
+          "id": "2.1",
+          "title": "Create theme provider",
+          "description": "Implement theme provider for dark/light mode support",
+          "status": "completed"
+        },
+        {
+          "id": "2.2",
+          "title": "Create header component",
+          "description": "Implement header with theme toggle and settings button",
+          "status": "completed"
+        },
+        {
+          "id": "2.3",
+          "title": "Create settings dialog",
+          "description": "Implement settings dialog for API key management",
+          "status": "completed"
+        },
+        {
+          "id": "2.4",
+          "title": "Create form components",
+          "description": "Implement form components for image generation",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "State Management",
+      "description": "Implement state management using Zustand",
+      "status": "completed",
+      "priority": "high",
+      "complexity": 5,
+      "subtasks": [
+        {
+          "id": "3.1",
+          "title": "Create store",
+          "description": "Implement Zustand store for application state",
+          "status": "completed"
+        },
+        {
+          "id": "3.2",
+          "title": "Implement API key storage",
+          "description": "Add functionality to store and retrieve API key",
+          "status": "completed"
+        },
+        {
+          "id": "3.3",
+          "title": "Implement image storage",
+          "description": "Add functionality to store and retrieve generated images",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OpenAI Integration",
+      "description": "Implement integration with OpenAI API for image generation",
+      "status": "completed",
+      "priority": "high",
+      "complexity": 6,
+      "subtasks": [
+        {
+          "id": "4.1",
+          "title": "Create OpenAI client",
+          "description": "Implement OpenAI client for API calls",
+          "status": "completed"
+        },
+        {
+          "id": "4.2",
+          "title": "Implement image generation",
+          "description": "Add functionality to generate images using OpenAI API",
+          "status": "completed"
+        },
+        {
+          "id": "4.3",
+          "title": "Implement error handling",
+          "description": "Add error handling for API calls",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Image Gallery",
+      "description": "Implement image gallery to display generated images",
+      "status": "completed",
+      "priority": "medium",
+      "complexity": 5,
+      "subtasks": [
+        {
+          "id": "5.1",
+          "title": "Create gallery component",
+          "description": "Implement gallery component to display images in a grid",
+          "status": "completed"
+        },
+        {
+          "id": "5.2",
+          "title": "Implement image detail view",
+          "description": "Add functionality to view image details",
+          "status": "completed"
+        },
+        {
+          "id": "5.3",
+          "title": "Implement image download",
+          "description": "Add functionality to download images",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Main Page Layout",
+      "description": "Implement main page layout with all components",
+      "status": "completed",
+      "priority": "medium",
+      "complexity": 4,
+      "subtasks": [
+        {
+          "id": "6.1",
+          "title": "Create layout component",
+          "description": "Implement layout component with header and main content",
+          "status": "completed"
+        },
+        {
+          "id": "6.2",
+          "title": "Integrate all components",
+          "description": "Integrate all components into the main page",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Testing and Debugging",
+      "description": "Test the application and fix any issues",
+      "status": "completed",
+      "priority": "medium",
+      "complexity": 5,
+      "subtasks": [
+        {
+          "id": "7.1",
+          "title": "Test image generation",
+          "description": "Test image generation functionality",
+          "status": "completed"
+        },
+        {
+          "id": "7.2",
+          "title": "Test image gallery",
+          "description": "Test image gallery functionality",
+          "status": "completed"
+        },
+        {
+          "id": "7.3",
+          "title": "Fix any issues",
+          "description": "Fix any issues found during testing",
+          "status": "completed"
+        }
+      ]
+    }
+  ]
+}
