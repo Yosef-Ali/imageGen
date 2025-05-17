@@ -1,12 +1,17 @@
 # ImageGen
 
-ImageGen is a web application that allows users to generate images using OpenAI's DALL-E 3 API. The application provides a simple, intuitive interface for entering prompts, customizing generation parameters, and viewing generated images.
+ImageGen is a web application that allows users to generate images using OpenAI's GPT-4 Image (gpt-image-1) and DALL-E 3 models. The application provides a simple, intuitive interface for entering prompts, customizing generation parameters, and viewing generated images.
 
 ## Features
 
-- Generate images using OpenAI's DALL-E 3 API
-- Customize image parameters (size, quality, style)
-- View history of generated images
+- Generate images using OpenAI's GPT-4 Image (gpt-image-1) and DALL-E 3 models
+- Customize image parameters (model, size, quality, style)
+- Organize images with collections and favorites
+- Edit images with basic editing tools (crop, rotate, filters, adjustments)
+- Share images with others
+- Export and import collections and templates
+- Advanced prompting with templates and AI assistance
+- View history of generated images and prompts
 - Download generated images
 - Responsive design for mobile and desktop
 - Dark and light mode support
@@ -32,8 +37,8 @@ ImageGen is a web application that allows users to generate images using OpenAI'
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/image-gen.git
-cd image-gen
+git clone https://github.com/Yosef-Ali/imageGen.git
+cd imageGen
 ```
 
 2. Install dependencies:
@@ -76,7 +81,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-- [OpenAI](https://openai.com/) for the DALL-E 3 API
+- [OpenAI](https://openai.com/) for the GPT-4 Image and DALL-E 3 APIs
 - [Next.js](https://nextjs.org/) for the React framework
 - [TailwindCSS](https://tailwindcss.com/) for styling
 - [Shadcn UI](https://ui.shadcn.com/) for UI components
+- [Zustand](https://github.com/pmndrs/zustand) for state management
